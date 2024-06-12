@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img5{
+    background: url(/assets/img/5.jpg);
+    background-size: cover;   
+}
+
+.navbar-nav li a{
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    grid-column-gap: 210px;
+}
+.block_form{
+    margin-bottom: 50px;
+}
+
+.card-img-top{
+    height: 180px;
+    object-fit: cover;
+}
